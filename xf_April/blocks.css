@@ -1,0 +1,165 @@
+/*  
+Theme Name: xf_April
+Theme URI: http://xoopsfactory.com 
+Description: just another clone from a CSS XOPS theme of mine <a href="http://xoopsfactory.com">XOOPS FACTORY</a>.
+Version: 1.0 | 29.04.2006
+Author: Michael Hokamp [aka studioC] 
+Author URI: http://hokamp.info
+*/
+
+#blockrighttop {
+height:200px;
+width:160px;
+background: url(images/blockrighttop.gif) no-repeat top left;
+}
+
+#blockleft ul, #blockright ul {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+}
+
+#blockleft li, #blockright li {
+display:block;
+}
+
+#blockleft li a, #blockright li a {
+font-weight:normal;
+font-size: 11px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft li a:hover, #blockright li a:hover {
+font-weight:bold;
+color: #000;
+font-size: 11px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft input, #blockright input {
+border :1px solid #666;
+padding: 2px;
+}
+
+/* ---- */
+
+div.ltitle {
+padding: 0px;
+width: 180px;
+background : #cc9;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+div.ltitle h3 {
+color: #000;
+font-size: 12px;
+background: url(images/onl.gif) no-repeat left center;
+padding: 5px;
+padding-left: 28px;
+text-transform:uppercase;
+}
+div.lblockcontent {
+color: #000;
+padding: 10px;
+background : #E2E2C8;
+margin-bottom: 15px;
+}
+div.lblockcontent a {
+color: #000;
+font-weight: bold;
+}
+div.lblockcontent a:hover {
+color: #999;
+font-weight: bold;
+}
+div.lblockcontent b {
+color: #999;
+font-weight: bold;
+}
+
+/* end left block settings */
+div.rtitle {
+padding: 0px;
+width: 160px;
+background : #74983B;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+div.rtitle h3 {
+color: #fff;
+font-size: 12px;
+background: url(images/onr.gif) no-repeat left center;
+padding: 5px;
+padding-left: 28px;
+text-transform:uppercase;
+}
+div.rblockcontent {
+font-size: 12px;
+color: #000;
+padding: 10px;
+background : #e2e2c8;
+margin-bottom: 15px;
+}
+div.rblockcontent a {
+color: #000;
+}
+div.rblockcontent a:hover {
+color: #999;
+}
+div.rblockcontent b {
+color: #000;
+}
+/* end right block settings */
+
+fieldset {padding:10px;border: 1px dotted #ccc;}
+legend {padding:10px;background:#fff;}
+
+.centerblockcontent p {
+padding: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.centerblocktitle h3 {
+padding-top: 15px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+div.centerblocktitle {
+border-bottom: 5px solid #cc9;
+}
+.centerblockcontent {
+padding:0px;
+font-size:13px;
+line-height:17px;
+padding-bottom:15px;
+padding-top:10px;
+text-align:justify;
+}
+h2{
+padding-top: 15px;
+font-size:16px;
+color:#000;
+text-transform:uppercase;
+}
+h3{
+padding-top: 15px;
+font-size:15px;
+color:#000;
+text-transform:uppercase;
+}
+#mainmenu a {
+display:block;
+}
+#usermenu a {
+display:block;
+}
